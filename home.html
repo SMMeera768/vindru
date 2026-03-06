@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VINDRU - Leading provider of industrial drilling solutions, equipment, and services for mining, construction, and water well applications worldwide.">
+  <meta name="keywords" content="drilling solutions, industrial drilling, mining equipment, drill rigs, drilling tools, PRD distributor, drilling services">
+  <meta name="author" content="VINDRU Drilling Solutions">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VINDRU | Industrial Drilling Solutions">
+  <meta property="og:description" content="Leading provider of drilling equipment, tools, and services for mining, construction, and water well applications.">
+  <meta property="og:image" content="https://vindru.com/Vindru-LOGO-New.png">
+  <meta property="og:url" content="https://vindru.com">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VINDRU | Industrial Drilling Solutions">
+  <meta name="twitter:description" content="Professional drilling equipment and services for global industrial applications.">
+  
+  <link rel="icon" type="image/png" href="Vindru-LOGO-New.png">
+  
+  <title>VINDRU | Industrial Drilling Solutions</title>
+  
+  <link rel="preload" href="style.css" as="style">
+  <link rel="preload" href="Vindru-LOGO-New.png" as="image">
+  <link rel="preload" href="vindru-hero-1.png" as="image">
+  <link rel="preload" href="vindru-hero-1-mobile.png" as="image" media="(max-width: 900px)">
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mobile-fixes.css?v=3">
+  <link rel="stylesheet" href="home-hero.css">
+  <link rel="stylesheet" href="mobile-hero.css">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "VINDRU Drilling Solutions",
+    "url": "https://vindru.com",
+    "logo": "https://vindru.com/Vindru-LOGO-New.png",
+    "description": "Industrial drilling solutions provider",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbatore",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-94466-32422",
+      "contactType": "Sales",
+      "email": "sales@vindru.com"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/vindru",
+      "https://www.instagram.com/vindru",
+      "https://twitter.com/vindru",
+      "https://www.youtube.com/@vindru"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <div class="logo">
+      <img src="Vindru-LOGO-New.png" alt="VINDRU - Industrial Drilling Solutions Logo" width="120" height="72" loading="eager">
+    </div>
+
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products-new.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+  </div>
+</header>
+
+
+<div class="menu-overlay" id="menuOverlay" role="dialog" aria-label="Mobile navigation menu">
+  <nav class="menu-links" role="navigation">
+    <a href="home.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products-new.html">Products</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</div>
+
+
+
+<!-- HERO SECTION -->
+<section class="simple-hero section full-width">
+  <!-- Mobile Vertical Slider -->
+  <div class="mobile-hero-slider">
+    <div class="mobile-slide" style="background-image: url('vindru-hero-1-mobile.png');">
+      <div class="mobile-overlay"></div>
+      <div class="mobile-content">
+        <div class="mobile-badge">PRD Authorized Distributor</div>
+        <h1 class="mobile-title">Drill Rigs</h1>
+        <p class="mobile-desc">VINDRU is an Authorized Distributor & Reseller of PRD Drilling Rigs. Built for exploration, mining, geotechnical, and water well drilling — across demanding ground conditions. Beyond supply, we deliver assurance.</p>
+        <button class="mobile-btn" onclick="scrollToNextSlide(1)">
+          <span>Next</span>
+          <span>→</span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-slide" style="background-image: url('vindru-hero-2-mobile.png');">
+      <div class="mobile-overlay"></div>
+      <div class="mobile-content">
+        <h1 class="mobile-title">Drill Tools & Components</h1>
+        <p class="mobile-desc">Complete range of drilling bits, hammers, rods, and accessories engineered for reliable penetration, stable hole quality, smooth drilling operations, and consistent core recovery across varying ground conditions.</p>
+        <button class="mobile-btn" onclick="scrollToNextSlide(2)">
+          <span>Next</span>
+          <span>→</span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-slide" style="background-image: url('vindru-hero-3-mobile.png');">
+      <div class="mobile-overlay"></div>
+      <div class="mobile-content">
+        <h1 class="mobile-title">Engines, Pumps & Compressors</h1>
+        <p class="mobile-desc">Range of air compressors, booster systems, industrial engines and water pumps designed to support drilling operations across exploration, geotechnical, mining, water well, and construction projects.</p>
+        <button class="mobile-btn" onclick="scrollToNextSlide(3)">
+          <span>Next</span>
+          <span>→</span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-slide" style="background-image: url('vindru-hero-4.png');">
+      <div class="mobile-overlay"></div>
+      <div class="mobile-content">
+        <div class="mobile-badge">Certified Equipment</div>
+        <h1 class="mobile-title">Used Equipment</h1>
+        <p class="mobile-desc">High-quality refurbished and used drilling equipment at unmatched market prices. Each machine is carefully inspected, restored, and performance-tested by our skilled team to ensure operational readiness.</p>
+        <button class="mobile-btn" onclick="scrollToNextSlide(4)">
+          <span>Next</span>
+          <span>→</span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-slide" style="background-image: url('vindru-hero-5-mobile.png');">
+      <div class="mobile-overlay"></div>
+      <div class="mobile-content">
+        <div class="mobile-badge">Expert Support</div>
+        <h1 class="mobile-title">Services</h1>
+        <p class="mobile-desc">Specialized Drilling Consultation, Crew Deployment, and Machine Inspection Services designed to maximize performance, reduce downtime, and improve operational efficiency. With deep industry expertise and skilled manpower.</p>
+        <button class="mobile-btn" onclick="scrollToContent()">
+          <span>Get Started</span>
+          <span>→</span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-dots">
+      <div class="mobile-dot active"></div>
+      <div class="mobile-dot"></div>
+      <div class="mobile-dot"></div>
+      <div class="mobile-dot"></div>
+      <div class="mobile-dot"></div>
+    </div>
+  </div>
+
+  <!-- Desktop Hero -->
+  <div class="hero-pattern"></div>
+  <div class="container" style="text-align:center;max-width:1000px;padding:120px 40px;position:relative;z-index:2;">
+    <div class="hero-tag" style="font-size:14px;color:#f97316;font-weight:700;letter-spacing:3px;margin-bottom:20px;animation:fadeInDown 0.8s ease;">WELCOME TO VINDRU</div>
+    
+    <h1 class="hero-title" style="font-size:64px;font-weight:900;color:#ffffff;line-height:1.2;margin-bottom:24px;animation:fadeInUp 1s ease 0.2s both;">Industrial Drilling Solutions</h1>
+    
+    <p class="hero-desc" style="font-size:20px;color:#cbd5e1;line-height:1.7;margin-bottom:40px;max-width:800px;margin-left:auto;margin-right:auto;animation:fadeInUp 1s ease 0.4s both;">
+      VINDRU is a leading provider of industrial drilling solutions, offering premium equipment, tools, and expert services to mining, construction, and water well industries worldwide. We deliver precision, reliability, and excellence in every project.
+    </p>
+    
+    <div class="hero-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;animation:fadeInUp 1s ease 0.6s both;">
+      <a href="products-new.html" class="hero-btn-primary" style="display:inline-flex;align-items:center;gap:12px;padding:18px 48px;background:linear-gradient(135deg,#f97316,#ea580c);color:white;border-radius:10px;font-size:18px;font-weight:700;text-decoration:none;box-shadow:0 15px 40px rgba(249,115,22,0.5);transition:all 0.3s;position:relative;overflow:hidden;">
+        <span style="position:relative;z-index:1;">Explore Products</span>
+        <span class="btn-arrow" style="position:relative;z-index:1;font-size:20px;transition:transform 0.3s;">→</span>
+      </a>
+      <a href="contact.html" class="hero-btn-secondary" style="display:inline-flex;align-items:center;gap:12px;padding:18px 48px;background:transparent;color:white;border:2px solid rgba(255,255,255,0.3);border-radius:10px;font-size:18px;font-weight:700;text-decoration:none;transition:all 0.3s;backdrop-filter:blur(10px);">
+        <span>Get a Quote</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+.simple-hero {
+  position: relative;
+  background: linear-gradient(135deg, #050a14 0%, #0b2d42 50%, #1a2f4a 100%);
+  overflow: hidden;
+}
+
+.mobile-hero-slider {
+  display: none;
+}
+
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(249,115,22,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(249,115,22,0.08) 0%, transparent 50%),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
+  z-index: 1;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.hero-btn-primary:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 50px rgba(249,115,22,0.7);
+}
+
+.hero-btn-primary:hover .btn-arrow {
+  transform: translateX(5px);
+}
+
+.hero-btn-secondary:hover {
+  border-color: #f97316;
+  background: rgba(249,115,22,0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(249,115,22,0.3);
+}
+
+@media (max-width: 768px) {
+  .simple-hero {
+    padding: 0;
+    background: none;
+    margin-top: -96px;
+  }
+
+  .mobile-hero-slider {
+    display: block;
+    width: 100vw;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 96px;
+  }
+
+  .mobile-slide {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    scroll-snap-align: start;
+  }
+
+  .mobile-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.85) 100%);
+  }
+
+  .mobile-content {
+    position: relative;
+    z-index: 2;
+    padding: 40px 24px 80px;
+    color: white;
+    text-align: center;
+  }
+
+  .mobile-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(249,115,22,0.2);
+    border: 1px solid #f97316;
+    border-radius: 20px;
+    color: #f97316;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .mobile-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.9);
+  }
+
+  .mobile-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #e2e8f0;
+    text-shadow: 0 2px 15px rgba(0,0,0,0.9);
+    margin-bottom: 24px;
+  }
+
+  .mobile-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 36px;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(249,115,22,0.5);
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+
+  .mobile-btn:active {
+    transform: scale(0.95);
+  }
+
+  .mobile-dots {
+    position: fixed;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mobile-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    transition: all 0.3s;
+  }
+
+  .mobile-dot.active {
+    background: #f97316;
+    height: 28px;
+    border-radius: 5px;
+  }
+
+  .hero-pattern,
+  .container {
+    display: none;
+  }
+}
+</style>
+
+<section class="industries-section reveal section full-width" id="industries">
+  <div class="industries-glass">
+    <div class="industries-container">
+      <div class="industries-content reveal">
+        <span class="section-tag">INDUSTRIES WE SERVE</span>
+        <h2>We cater to a wider range of industries</h2>
+        <p>Our products and technologies are built to perform across some of the world's most demanding industries. From deep exploration sites to urban infrastructure zones, we provide precision drilling solutions that meet operational, environmental, and economic demands.</p>
+      </div>
+      <div class="industries-grid">
+        <div class="industry-card reveal">
+          <img src="mining.webp" alt="Mining & Quarrying" loading="lazy" width="400" height="300">
+          <h3>Mining & Quarrying</h3>
+          <p>We support surface and underground mining operations with high-performance drilling tools and accessories for blast holes, exploration, and geotechnical studies.</p>
+        </div>
+        <div class="industry-card reveal">
+          <img src="construction.webp" alt="Infrastructure & Construction" loading="lazy" width="400" height="300">
+          <h3>Infrastructure & Construction</h3>
+          <p>From foundation piling to soil investigation, VINDRU enables contractors to drill with accuracy and consistency across roads, bridges, metros, tunnels, and dams.</p>
+        </div>
+        <div class="industry-card reveal">
+          <img src="demestic.webp" alt="Water Wells" loading="lazy" width="400" height="300">
+          <h3>Domestic & Agricultural Water Wells</h3>
+          <p>We supply rural and urban drilling companies with reliable, easy-to-maintain tools for water well construction in a variety of soil and rock conditions.</p>
+        </div>
+        <div class="industry-card reveal">
+          <img src="Oil-rig.webp" alt="Oil & Gas Support Drilling" loading="lazy" width="400" height="300">
+          <h3>Oil & Gas Support Drilling</h3>
+          <p>VINDRU provides key support products and consulting for peripheral drilling tasks, including geotechnical surveys, environmental sampling, and civil works.</p>
+        </div>
+    </div>
+</section>
+
+<section class="products-section section full-width">
+  <div class="container">
+    <div class="products-header">
+      <span class="products-tag">OUR PRODUCTS</span>
+      <h2 class="section-title">Complete Drilling Product Portfolio</h2>
+      <p class="section-subtitle">We supply a comprehensive range of drilling products, equipment, and spares designed for diverse industrial needs.</p>
+    </div>
+    <div class="products-wrapper">
+      <button class="scroll-btn left" aria-label="Scroll left">&#10094;</button>
+      <div class="products-scroll">
+        <a href="products-new.html#rigs-core" class="product-card reveal"><div class="product-image"><img src="vindru-hero-1.png" alt="Drill Rig" loading="lazy" width="260" height="280"></div><h3>Drill Rig</h3></a>
+        <a href="products-new.html#tools-hammers" class="product-card reveal"><div class="product-image"><img src="vindru-pro-hammer-new.png" alt="Hammers" loading="lazy" width="260" height="280"></div><h3>Hammers</h3></a>
+        <a href="products-new.html#tools-bits" class="product-card reveal"><div class="product-image"><img src="vindru-pro-drillbits-new.png" alt="Drill Bits" loading="lazy" width="260" height="280"></div><h3>Drill Bits</h3></a>
+        <a href="products-new.html#tools-rods" class="product-card reveal"><div class="product-image"><img src="vindru-pro-drillrods-new.png" alt="Drill Pipes" loading="lazy" width="260" height="280"></div><h3>Drill Pipes</h3></a>
+        <a href="products-new.html#tools-accessories" class="product-card reveal"><div class="product-image"><img src="ROTARY-OG.webp" alt="Rotary Tools" loading="lazy" width="260" height="280"></div><h3>Rotary Tools</h3></a>
+        <a href="products-new.html#comp-compressors" class="product-card reveal"><div class="product-image"><img src="compressors.png" alt="Compressors & Pumps" loading="lazy" width="260" height="280"></div><h3>Compressors & Pumps</h3></a>
+        <a href="products-new.html#comp-boosters" class="product-card reveal"><div class="product-image"><img src="ENGINE-OG.webp" alt="Engines" loading="lazy" width="260" height="280"></div><h3>Engines</h3></a>
+        <a href="products-new.html#tools-fluids" class="product-card reveal"><div class="product-image"><img src="consumables.png" alt="Consumables" loading="lazy" width="260" height="280"></div><h3>Consumables</h3></a>
+        <a href="products-new.html#comp-spares" class="product-card reveal"><div class="product-image"><img src="spares.png" alt="Other Spares" loading="lazy" width="260" height="280"></div><h3>Other Spares</h3></a>
+        <a href="products-new.html#rigs" class="product-card reveal"><div class="product-image"><img src="USED-OG.webp" alt="Used Certified Equipment" loading="lazy" width="260" height="280"></div><h3>Used Certified Equipments</h3></a>
+      </div>
+      <button class="scroll-btn right" aria-label="Scroll right">&#10095;</button>
+    </div>
+</section>
+
+<section class="services-section section full-width" id="services">
+  <div class="services-header reveal">
+    <span class="services-tag">OUR SERVICES</span>
+    <h2 class="section-title">End-to-End Drilling Support Services</h2>
+    <p class="section-subtitle">Beyond products, we deliver expert services that enhance performance, safety, and operational efficiency across drilling projects.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><div class="service-icon">📊</div><h3>Digital Analytics</h3><p>Data-driven insights and performance monitoring tools to optimize drilling efficiency and decision-making.</p></div>
+    <div class="service-card reveal"><div class="service-icon">🔍</div><h3>Inspection Services</h3><p>Professional inspection and condition monitoring services ensuring safety, compliance, and equipment reliability.</p></div>
+    <div class="service-card reveal"><div class="service-icon">🧑‍🔧</div><h3>Technician Deployment</h3><p>Skilled technicians deployed on-site for installation, maintenance, troubleshooting, and operational support.</p></div>
+</section>
+
+<section class="global-section reveal section full-width">
+  <div class="global-container">
+    <div class="global-content">
+      <span class="section-tag">GLOBAL PRESENCE</span>
+      <h2>Supply Across the Globe</h2>
+      <p>With a strong export focus, VINDRU supports clients worldwide through reliable logistics, technical expertise, and scalable drilling solutions. Our global reach ensures timely delivery, on-site support, and consistent performance across international markets.</p>
+    </div>
+    <div class="global-image">
+      <img src="global-2.webp" alt="Global Presence Map" loading="lazy" width="600" height="450">
+    </div>
+</section>
+
+<footer class="vindru-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>All Pages</h4>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products-new.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products-new.html#vin-saver">Drilling Rigs</a></li>
+        <li><a href="products-new.html#drilling-tools">Drilling Tools & Consumables</a></li>
+        <li><a href="products-new.html#components">Components & Accessories</a></li>
+        <li><a href="products-new.html#used-equipment">Certified Used Equipment</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html#field-support">Field Support</a></li>
+        <li><a href="services.html#technical-consulting">Technical Consulting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-contact">
+      <h4>Contact Us</h4>
+      <p><strong>Phone</strong><br>+91 94466 32422</p>
+      <p><strong>Email</strong><br><a href="mailto:sales@vindru.com">sales@vindru.com</a></p>
+      <p><strong>Location</strong><br>Coimbatore, Tamil Nadu, India</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/company/vindru" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+        <a href="https://www.instagram.com/vindru" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+        <a href="https://twitter.com/vindru" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://www.youtube.com/@vindru" target="_blank" rel="noopener" aria-label="YouTube"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
+      </div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 VINDRU Drilling Solutions. All rights reserved.
+    <span class="footer-separator">|</span>
+    <button id="openLegal" class="footer-legal-link">Legal Disclaimer</button>
+  </div>
+</footer>
+
+<!-- Legal Disclaimer Modal -->
+<div id="legalModal" class="legal-modal">
+  <div class="legal-box">
+    <button class="legal-close" id="closeLegal">&times;</button>
+    <h2>Legal Disclaimer</h2>
+    <div class="legal-scroll">
+      <h4>Legal Disclaimer</h4>
+      <p>VINDRU (Vindru Drilling Solutions Corp) provides access to information and materials (the "Information") on www.vindru.com, subject to the Terms of Use and this Disclaimer. By accessing or using this Website, you acknowledge and agree to be bound by the Terms of Use and this Disclaimer. If you do not agree with these terms, you are advised not to access or use the Website.</p>
+      <h4>Copyright</h4>
+      <p>© Vindru Drilling Solutions Corp. 2025. All rights reserved. Except as expressly permitted in this Website, no part of the information or content may be reproduced, distributed, or transmitted in any form or by any means without the prior written consent of VINDRU.</p>
+      <h4>Trademarks</h4>
+      <p>VINDRU, including the VINDRU name, logos, graphics, service marks, and "vindru.com," are trademarks of VINDRU. Except as expressly permitted herein, these trademarks may not be used without prior written authorization from VINDRU.</p>
+      <h4>Website Access and Use</h4>
+      <p>Subject to the terms and conditions outlined in the Terms of Use and this Disclaimer, VINDRU grants you a limited, non-exclusive, non-transferable, and restricted right to access, use, and display this Website and its contents.</p>
+      <h4>Third-Party Links</h4>
+      <p>This Website may contain links to third-party websites that are not under the control of VINDRU. VINDRU assumes no responsibility or liability for the content, accuracy, or functionality of any external websites accessible through such links.</p>
+      <h4>Governing Law and Jurisdiction</h4>
+      <p>By accessing this Website, you agree that all matters arising out of or relating to this Website, including any disputes involving VINDRU, shall be governed by the laws of the Republic of India. You also agree to submit to the exclusive jurisdiction of the courts located in Coimbatore, Tamil Nadu.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const elements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-delay');
+const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('active'); observer.unobserve(entry.target); } }); }, { threshold: 0.15 });
+elements.forEach(el => observer.observe(el));
+</script>
+
+<script src="products-scroll.js"></script>
+<script src="reveal.js"></script>
+
+<script>
+const toggle = document.getElementById("menuToggle");
+const overlay = document.getElementById("menuOverlay");
+toggle.addEventListener("click", () => { overlay.classList.toggle("active"); });
+overlay.addEventListener("click", () => { overlay.classList.remove("active"); });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const hash = window.location.hash.replace("#","");
+  if(!hash) return;
+  const targetPanel = document.getElementById(hash);
+  if(!targetPanel) return;
+  const productCard = targetPanel.closest(".product-card");
+  if(!productCard) return;
+  const cardId = productCard.id;
+  document.querySelectorAll(".nav-item").forEach(n => { n.classList.toggle("active", n.dataset.target === cardId); });
+  document.querySelectorAll(".product-card").forEach(c => c.classList.remove("active"));
+  productCard.classList.add("active");
+  const subTabs = productCard.querySelectorAll(".sub-tab");
+  const panels = productCard.querySelectorAll(".sub-panel");
+  const intro = productCard.querySelector(".main-content");
+  subTabs.forEach(t => t.classList.remove("active"));
+  panels.forEach(p => p.classList.remove("active"));
+  if(intro) intro.style.display = "none";
+  const tabBtn = productCard.querySelector(`.sub-tab[data-sub="${hash}"]`);
+  if(tabBtn) tabBtn.classList.add("active");
+  targetPanel.classList.add("active");
+  setTimeout(()=>{ targetPanel.scrollIntoView({ behavior:"smooth", block:"start" }); },300);
+});
+</script>
+
+<!-- Legal Disclaimer Modal Script -->
+<script>
+const openLegal = document.getElementById("openLegal");
+const closeLegal = document.getElementById("closeLegal");
+const modal = document.getElementById("legalModal");
+
+if(openLegal && closeLegal && modal) {
+  openLegal.onclick = () => modal.classList.add("active");
+  closeLegal.onclick = () => modal.classList.remove("active");
+  modal.onclick = e => {
+    if(e.target === modal) modal.classList.remove("active");
+  };
+}
+</script>
+
+<!-- Mobile Slider Script -->
+<script>
+if (window.innerWidth <= 768) {
+  const mobileSlider = document.querySelector('.mobile-hero-slider');
+  const mobileDots = document.querySelectorAll('.mobile-dot');
+  
+  if (mobileSlider) {
+    const slides = document.querySelectorAll('.mobile-slide');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const index = Array.from(slides).indexOf(entry.target);
+          mobileDots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+          });
+        }
+      });
+    }, { threshold: 0.5 });
+    
+    slides.forEach(slide => observer.observe(slide));
+  }
+}
+
+function scrollToNextSlide(index) {
+  const slides = document.querySelectorAll('.mobile-slide');
+  if (slides[index]) {
+    slides[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function scrollToContent() {
+  const industriesSection = document.querySelector('.industries-section');
+  if (industriesSection) {
+    industriesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+</script>
+
+</body>
+</html>
